@@ -3,7 +3,7 @@ const express = require('express');
 const validate = require('./types') //slightly uglier syntax
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
